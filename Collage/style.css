@@ -1,0 +1,94 @@
+@font-face {
+    font-family: BrokenWings;
+    src: url("assets/Broken\ Wings.otf") format("opentype");
+}
+@font-face {
+    font-family: Limerick;
+    src: url("assets/limerick_cd_serial-regular.otf") format("opentype");
+}
+
+.parent {
+    display:flex;
+    width: 100%;
+}
+
+.column{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.div1{
+
+    width: 51.10625rem;
+    height:20.4275rem;
+}
+
+.div2{
+    width: 51.10625rem;
+    height:28rem; 
+}
+
+.div3{
+    height: 28.96875rem;
+    width:25.28875rem;
+    
+}
+.div4{
+    margin-top: -0.2125rem;
+    width:25.28875rem;
+    height:19.274375rem;
+}
+
+/* For font  */
+.title{
+    font-family: "BrokenWings";
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.subtitle{ 
+    font-family: "Limerick";
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 0;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-left: 1.4rem;
+}
+
+
+/* For the Overlay  */
+.overlayone{
+    display: inline-block;
+    position: relative;
+}
+.overlayinn{
+    background-color: rgba(255,0,0,0.702);
+    height: 100%; 
+    width: 100%; 
+    opacity: 0;
+    transition: opacity .5s;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.overlayinn:hover{
+    opacity: 1; 
+    transition: opacity .5s;
+}
+
+
+
+  
