@@ -9,8 +9,8 @@
 
 .parent {
     display:flex;
-    width: 700px;
-    height:800px;
+    width: 37.5rem;
+    height:50rem;
 }
 
 .column{
@@ -80,7 +80,7 @@
     position: absolute;
     top: 0; 
     left: 0; 
-    border-width: 0px;
+    border-width: 0rem;
     border-color: rgb(0, 0, 0);
     
 }
@@ -89,6 +89,13 @@
     opacity: 1; 
     transition: opacity .5s;
 }
+
+@media (max-width: 31.25rem) {
+   .parent{
+       width:35rem;
+       height: 31.25rem;
+   }
+  }
 
 
 
