@@ -9,12 +9,9 @@
 
 .parent {
     display:flex;
-    width: 37.5rem;
-    height:50rem;
 }
 
 .column{
-   
     display: flex;
     flex-direction: column;
 }
