@@ -9,6 +9,8 @@
 
 .parent {
     display:flex;
+    height: 100%;
+    width: 100%;
 }
 
 .column{
@@ -41,14 +43,14 @@
 /* For font  */
 .title{
     font-family: "BrokenWings";
-    font-size: 3.5rem;
+    font-size: 3.5em;
     margin-bottom: 0;
     color: rgb(255, 255, 255);
     text-align: left;
 }
 .subtitle{ 
     font-family: "Limerick";
-    font-size: 2rem;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     text-align: left;
     margin-top: 0;
@@ -87,11 +89,8 @@
     transition: opacity .5s;
 }
 
-@media (max-width: 31.25rem) {
-   .parent{
-       width:35rem;
-       height: 31.25rem;
-   }
+@media (max-width: 50rem) {
+   
   }
 
 
